@@ -337,6 +337,11 @@ Between AIC and the RMSE scores of the Cross Validation, which model does the be
  2nd!
 
 The final step is to run the selected model on all the data. Fit a final model and provide the summary table.
+```{r}
+final_mod<-lm(f_2,data=penguins_clean)
+
+summary(final_mod)
+```
 
 
 Render your document, commit changes, and push to github.

@@ -311,8 +311,8 @@ kfold_cv<-function(i,df,formula){
 ```
 
 ```{r}
-# use function
-kfold_cv(df=penguins_fold, formula=f_1)
+
+
 ```
 
 
